@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header{
+    background-color: #81C784;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  
+  .dd-history{
+  float:right;
+  list-style-type: none;
+  }
+  
+  .dd-history a{
+  color: white !important;
+  }
+  
+  .dd-history-menu{
+  top:10px !important;
+  left:10px !important;
+  background-color: #81C784;
+  color: white;
+  border: none;
+  padding: 0px;
+  border-radius: 0;
+  min-width: 5rem;
+  text-align-last:center;
+  }
+  .dd-history-menu .dropdown-item:hover{
+  color:black !important;
+  }
+  

@@ -1,0 +1,10 @@
+<div class="header">Calculator
+    <li class="nav-item dropdown dd-history">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        History
+      </a>
+      <div class="dropdown-menu  dropdown-menu-right dd-history-menu" aria-labelledby="navbarDropdown">
+        <a *ngFor="let item of items; index as i" class="dropdown-item" href="#" (click)="onSelectHistory(item)">{{item}}</a>
+      </div>
+    </li>
+  </div>
