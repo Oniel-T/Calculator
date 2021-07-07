@@ -10,8 +10,6 @@ export class CalculatorComponent implements OnInit {
   title = 'Calculator';
   result:string='';
   resultCal:string = ''; 
-  items=["4 + 5","4 * 5","5 - 1","7 / 5"];
-
   constructor() { }
 
   ngOnInit(): void {
